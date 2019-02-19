@@ -1,0 +1,32 @@
+<header class="w3-container w3-purple"> 
+  <span onclick="document.getElementById('id01').style.display='none'" 
+  class="w3-button w3-display-topright">&times;</span>
+  <h2>
+    Word: 
+    <b>
+      <%= @word.name.capitalize %>
+    </b>
+  </h2>
+</header>
+<div class="w3-container">
+  <p>
+    <table>
+    <tr>
+      <th >Meaning</th>
+      <th>Sentences</th>
+    </tr>
+    <% @word.additional_info.each do |word| %>
+      <% word["entries"].each do |entry| %>
+        <%= render partial: "word_table", locals: { speech: word["speech"], entry: entry } %>
+      <% end %>
+    <% end %>
+  </table>
+  </p>
+</div>
+<footer class="w3-container w3-purple">
+  <p>
+    <%= @word.additional_info.nil? ? nil : @word.additional_info.first["phonetic_spelling"] %>  
+    <span onclick="document.getElementById('id01').style.display='none'" 
+    class="w3-button w3-display-bottomright">Close</span>
+  </p>
+</footer>

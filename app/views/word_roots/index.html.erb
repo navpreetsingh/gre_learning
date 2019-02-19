@@ -1,0 +1,17 @@
+<h1>Word Roots</h1>
+
+<ol class='wordRootList'>
+    <% @word_roots.each do |word_root| %>
+        <%= render partial: "word_root", locals: { word_root: word_root } %>
+    <% end %>
+</ol>
+
+<%= will_paginate @word_roots %>
+
+
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+        
+    </div>
+</div>
+

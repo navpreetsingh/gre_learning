@@ -1,0 +1,15 @@
+<li>
+    <b>Root:</b> <%= word_root.name %> <br/>
+    <b>Meaning:</b> <%= word_root.meaning %>
+    <div style="overflow-x:auto; padding-top: 10px;" class="divTable">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th >Meaning</th>
+            <th>Sentences</th>
+        </tr>
+        <% word_root.words.each do |word| %>
+            <%= render partial: "word_table", locals: { word: word } %>
+        <% end %>
+    </table>
+</li>

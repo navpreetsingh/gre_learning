@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GreLearning</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "https://www.w3schools.com/w3css/4/w3.css", media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Gre Practice</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-2 col-s-3 menu">
+        <ul>
+          <li>Word Root</li>
+          <li>List</li>
+        </ul>
+      </div>
+
+      <div class="col-10 col-s-9">
+        <%= yield %>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright 2018</p>
+    </div>
+    
+  </body>
+</html>

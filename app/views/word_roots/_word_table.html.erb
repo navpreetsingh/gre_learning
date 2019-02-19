@@ -1,0 +1,10 @@
+<tr>
+    <td class='wordRoots' data-toggle='modal' data-target='#modal-window' data-word-id= <%= word.id %> >
+        <b><%= link_to word.name.capitalize, words_show_path(word.id),  {:remote => true}  %> </b>
+        (<%= word.speech %>)<br/>
+        <%= word.additional_info.nil? ? nil : word.additional_info.first["phonetic_spelling"] %>
+
+    </td>
+    <td><%= word.meaning %></td>
+    <td><%= word.sentence %></td>
+</tr>
