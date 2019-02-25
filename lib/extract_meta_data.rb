@@ -40,6 +40,5 @@ Word.where(meta_fetched: true).limit(1).map do |word|
         end 
         additional_info << data
     end
-    debugger
     word.update_attributes(meaning: meaning, sentence: sentence, speech: speech, additional_info: additional_info)
 end

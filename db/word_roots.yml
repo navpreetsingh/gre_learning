@@ -1,0 +1,165 @@
+---
+word_roots: [
+    [
+        'ab','from, away', 'abandon, abhor, abnormal, abstract, abdicate, abstain, absolve, abstemious,abstruse, abrogate, aberration'
+    ],
+    [
+        'ac,acr', 'sharp', 'acrimonious, acerbity, acidulate, acrid, acute, acumen'
+    ],
+    [
+        'aev, ev', 'age, era', 'primeval, coeval, medieval'
+    ],
+    [
+        'ag, act', 'to do', 'act deed, action, agent, react, agitate'
+    ],
+    [
+        'agog', 'leader', 'demagogue, pedagogue'
+    ],
+    [
+        'agri, agrari', 'field', 'agrarian, agriculture, peregrination'
+    ],
+    [
+        'algos', 'pain', 'neuralgia, cardialgia, odontalgia, nostalgia'
+    ],
+    [
+        'ali', 'another', 'alias, alienate'
+    ],
+    [
+        'alt', 'high', 'altitude, altostratus, altimeter'
+    ],
+    [
+        'alter', 'other', 'alternative, alter ego, altruist, altercation'
+    ],
+    [
+        'am', 'love', 'amorous, amity, amicable, amiable'
+    ],
+    [
+        'amb, ambi', 'both', 'ambidextrous, ambient, ambiparous, ambivalent, ambivert, ambiguous'
+    ],
+    [
+        'ambulo', 'walk', 'amble, ambulatory, ambulance, ramble, preamble, somnambulist, perambulator' 
+    ],
+    [
+        'amphi', 'two, both, on both sides', 'amphibious, amphibolic, amphibolous, amphorous'
+    ],
+    [
+        'ana', 'up, again, anew, throughout', 'analyze, anagram, anabasis, anacephalize, anachronism'
+    ],
+    [
+        'andros', 'man', 'philander, polyandry, andromania, misandrist, gynandrous, androgynous'
+    ],
+    [
+        'anim', 'mind, soul', 'animadvert, unanimous, magnanimity, equanimity, animosity, pussilanimaous'
+    ],
+    [
+        'ann, enn', 'year', 'annuity, biennial, perennial, annual'
+    ],
+    [
+        'ante', 'before, in front of', 'antediluvian, antecedent, antedate, antenuptial, antetype'
+    ],
+    [
+        'anthrop', 'human being', 'anthropology, misanthrope, philanthropy, anthropocentric'
+    ],
+    [
+        'anti', 'opposed, against', 'antidote, antimony, antipathy, antithesis'
+    ],
+    [
+        'apo', 'away, from', 'apocrypha, apoplexy, apostasy, apostle'
+    ],
+    [
+        'apt, ept', 'fit', 'aptitude, adapt, apt, ineptitude'
+    ],
+    [
+        'aqua', 'water', 'aqueduct, aquatic, aquamarine'
+    ],
+    [
+        'arbit', 'judge', 'arbiter, arbitrary, arbitrator'
+    ],
+    [
+        'arch', 'first', 'archetype, archeology'
+    ],
+    [
+        'archy', 'govern, rule', 'oligarchy, monarchy, anarchy, matriarchy'
+    ],
+    [
+        'arm', 'arm, weapon', 'army, armature, disarm'
+    ],
+    [
+        'art', 'skill, a fitting together', 'artisan, artifact, articylate'
+    ],
+    [
+        'aster, astr', 'star', 'astronomy, asterisk, disaster, asteroid, astral'
+    ],
+    [
+        'aud, audit', 'to hear', 'audible, auditorium, audience, auricle, auditory, aural, aurist'
+    ],
+    [
+        'auto', 'self', 'autocracy, automobile, autobiography, autograph, autism'
+    ],
+    [
+        'be', 'intensive, thoroughly, top, make or render', 'bedaud, bedeck, befuddle, beguile, beleaguer, beratebereave, besmirch'
+    ],
+    [
+        'belli', 'war', 'bellicose, belligerent, rebellious, antebellum'
+    ],
+    [
+        'bene, bon', 'good', 'beneficiary, beneficent, benign, benediction, benevolent, bona fide, benefactor, bonus, bonify'
+    ],
+    [
+        'bi', 'two, twice', 'bicameral, biennial, bipartisan, biped, bilateral'
+    ],
+    [
+        'biblio', 'book', 'bibliography, bibliophile, bible, bibliomaniac'
+    ],
+    [
+        'bio', 'life', 'biography, biology, biochemist, biosphere'
+    ],
+    [
+        'brev', 'short', 'brevity, abbreviate, breviloquent'
+    ],
+    [
+        'cand', 'white, shining', 'candid, candle, incandescent'
+    ],
+    [
+        'cant, chant', 'sing, charm', 'cantor, recant, enchant'
+    ],
+    [
+        'cap, cip, ceipt, cept, ceiv, ceit', 'take', 'capture, intercept, receptive, recipient, incipient, perceptive, percipient, anticulate, except, exceptional, exceptioable, susceptible, deception, conception, receive, conceit, accept, emancipate, precept, participate, captive'
+    ],
+    [
+        'capit, capt', 'head', 'decapitate, captain, capitulate'
+    ],
+    [
+        'carn', 'flesh', 'carnivorous, carnage, carnal, incarnate'
+    ],
+    [
+        'cata', 'down', 'cataclysm, catalyst, cataract, catastrophe, catacomb'
+    ],
+    [
+        'ced, cess', 'to yield, to go', 'precede, antecedent, process, accede, recede, cessation'
+    ],
+    [
+        'celer', 'swift', 'celerity, decelerate, accelerate'
+    ],
+    [
+        'cent', 'one hundred', 'century, centennial, centipede, centurion'
+    ],
+    [
+        'cern, cert', 'perceive, make certain', 'concern, certificate, certain'
+    ],
+    [
+        'chiro', 'hand', 'chiropodist, chiropractor, chiromancy'
+    ],
+    [
+        'chrom', 'color', 'monochrome, chromatic'
+    ],
+    [
+        'chron', 'time', 'chronometer, chronological, anachronism, chronicle, chronic, synchronize'
+    ],
+    [
+        'cid, cis', 'to cut, to kill', 'incision, homicide, fratricide'
+    ],
+    [
+        'circum', 'round', 'circumlocution, circumnavigation, circumference, circumcision, circumscribe, circumambulate, circuitous, circumfluous, circumspect, circumstance, circumvent, circulation'
+    ]
+]

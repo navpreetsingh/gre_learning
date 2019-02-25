@@ -1,5 +1,6 @@
 require 'uri'
 require 'net/http'
+require 'yaml'
 
 class MetaData
     @@URL = "https://od-api.oxforddictionaries.com/api/v1/entries/en/"
@@ -38,7 +39,7 @@ class MetaData
         end
 
         def extract
-            Word.where(meta_fetched: true).map do |word|
+            Word.where(meta_fetched: true, meaning: nil).map do |word|
             # Word.where(name: "abandon").map do |word|
                 speech = nil
                 meaning = nil
@@ -86,8 +87,14 @@ class MetaData
                     output = {
                         status: 500
                     }
-                end
-                
+                end     
+            end
+        end
+
+        def unextracted_words
+            unextracted_words = YAML.load(File.read(Rails.root.join("lib", "unextracted_words.yml")))
+            Word.where(meaning: nil).map do |word|
+
             end
         end
     end

@@ -7,52 +7,15 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
+require 'yaml'
 # Word Roots
+# word_roots = YAML.load(File.read(Rails.root.join("db", "word_roots.yml")))["word_roots"]
+
 word_roots = [
     [
-        'andros', 'man', 'philander, polyandry, andromania, misandrist, gynandrous, androgynous'
+        'chron', 'time', 'chronometer, chronological, anachronism, chronicle, chronic, synchronize'
     ],
-    [
-        'anim', 'mind, soul', 'animadvert, unanimous, magnanimity, equanimity, animosity, pussilanimaous'
-    ],
-    [
-        'ann, enn', 'year', 'annuity, biennial, perennial, annual'
-    ],
-    [
-        'ante', 'before, in front of', 'antediluvian, antecedent, antedate, antenuptial, antetype'
-    ],
-    [
-        'anthrop', 'human being', 'anthropology, misanthrope, philanthropy, anthropocentric'
-    ],
-    [
-        'anti', 'opposed, against', 'antidote, antimony, antipathy, antithesis'
-    ],
-    [
-        'apo', 'away, from', 'apocrypha, apoplexy, apostasy, apostle'
-    ],
-    [
-        'apt, ept', 'fit', 'aptitude, adapt, apt, ineptitude'
-    ],
-    [
-        'aqua', 'water', 'aqueduct, aquatic, aquamarine'
-    ],
-    [
-        'arbit', 'judge', 'arbiter, arbitrary, arbitrator'
-    ],
-    [
-        'arch', 'first', 'archetype, archeology'
-    ],
-    [
-        'archy', 'govern, rule', 'oligarchy, monarchy, anarchy, matriarchy'
-    ],
-    [
-        'arm', 'arm, weapon', 'army, armature, disarm'
-    ],
-    [
-        'art', 'skill, a fitting together', 'artisan, artifact, articylate'
-    ]
 ]
-
 
 word_roots.each do |wr|
     begin
@@ -60,7 +23,11 @@ word_roots.each do |wr|
         words = wr.last.split(",")
         puts "Words: #{words}"
         words.each do |word|
-            word_root.words.create(name: word.lstrip)
+            wordd = word_root.words.new(name: word.lstrip)
+            unless wordd.save
+                byebug
+                puts "#{word} not saved, Message: #{wordd.errors.messages}" 
+            end
         end
     rescue Exception => e
         puts "\n\n"  
