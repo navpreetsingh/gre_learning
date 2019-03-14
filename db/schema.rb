@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_01_29_081646) do
+ActiveRecord::Schema.define(version: 2019_03_14_165523) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -33,6 +33,12 @@ ActiveRecord::Schema.define(version: 2019_01_29_081646) do
     t.index ["name"], name: "index_word_roots_on_name", unique: true
   end
 
+  create_table "word_roots_words", id: false, force: :cascade do |t|
+    t.bigint "word_root_id", null: false
+    t.bigint "word_id", null: false
+    t.index ["word_root_id", "word_id"], name: "index_word_roots_words_on_word_root_id_and_word_id", unique: true
+  end
+
   create_table "words", force: :cascade do |t|
     t.string "name"
     t.string "speech"
@@ -47,7 +53,6 @@ ActiveRecord::Schema.define(version: 2019_01_29_081646) do
     t.boolean "parent", default: false
     t.bigint "parent_id"
     t.bigint "list_id", default: 1
-    t.bigint "word_root_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.jsonb "additional_info"
@@ -55,7 +60,6 @@ ActiveRecord::Schema.define(version: 2019_01_29_081646) do
     t.index ["list_id"], name: "index_words_on_list_id"
     t.index ["name"], name: "index_words_on_name", unique: true
     t.index ["parent_id"], name: "index_words_on_parent_id"
-    t.index ["word_root_id"], name: "index_words_on_word_root_id"
   end
 
 end

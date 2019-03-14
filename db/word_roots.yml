@@ -49,7 +49,7 @@ word_roots: [
         'andros', 'man', 'philander, polyandry, andromania, misandrist, gynandrous, androgynous'
     ],
     [
-        'anim', 'mind, soul', 'animadvert, unanimous, magnanimity, equanimity, animosity, pussilanimaous'
+        'anim', 'mind, soul', 'animadvert, unanimous, magnanimity, equanimity, animosity, pusillanimous'
     ],
     [
         'ann, enn', 'year', 'annuity, biennial, perennial, annual'
@@ -76,7 +76,7 @@ word_roots: [
         'arbit', 'judge', 'arbiter, arbitrary, arbitrator'
     ],
     [
-        'arch', 'first', 'archetype, archeology'
+        'arch', 'first', 'archetype, archaeology'
     ],
     [
         'archy', 'govern, rule', 'oligarchy, monarchy, anarchy, matriarchy'
@@ -85,7 +85,7 @@ word_roots: [
         'arm', 'arm, weapon', 'army, armature, disarm'
     ],
     [
-        'art', 'skill, a fitting together', 'artisan, artifact, articylate'
+        'art', 'skill, a fitting together', 'artisan, artefact, articulate'
     ],
     [
         'aster, astr', 'star', 'astronomy, asterisk, disaster, asteroid, astral'
@@ -97,19 +97,19 @@ word_roots: [
         'auto', 'self', 'autocracy, automobile, autobiography, autograph, autism'
     ],
     [
-        'be', 'intensive, thoroughly, top, make or render', 'bedaud, bedeck, befuddle, beguile, beleaguer, beratebereave, besmirch'
+        'be', 'intensive, thoroughly, top, make or render', 'bedaub, bedeck, befuddle, beguile, beleaguer, berate, bereave, besmirch'
     ],
     [
         'belli', 'war', 'bellicose, belligerent, rebellious, antebellum'
     ],
     [
-        'bene, bon', 'good', 'beneficiary, beneficent, benign, benediction, benevolent, bona fide, benefactor, bonus, bonify'
+        'bene, bon', 'good', 'beneficiary, beneficent, benign, benediction, benevolent, bonafide, benefactor, bonus, bonify'
     ],
     [
         'bi', 'two, twice', 'bicameral, biennial, bipartisan, biped, bilateral'
     ],
     [
-        'biblio', 'book', 'bibliography, bibliophile, bible, bibliomaniac'
+        'biblio', 'book', 'bibliography, bibliophile, bible, bibliomania'
     ],
     [
         'bio', 'life', 'biography, biology, biochemist, biosphere'
@@ -118,13 +118,16 @@ word_roots: [
         'brev', 'short', 'brevity, abbreviate, breviloquent'
     ],
     [
+        'cad, cas', 'to fall', 'decadent, cadence, cascade, casuality, accident'
+    ],
+    [
         'cand', 'white, shining', 'candid, candle, incandescent'
     ],
     [
         'cant, chant', 'sing, charm', 'cantor, recant, enchant'
     ],
     [
-        'cap, cip, ceipt, cept, ceiv, ceit', 'take', 'capture, intercept, receptive, recipient, incipient, perceptive, percipient, anticulate, except, exceptional, exceptioable, susceptible, deception, conception, receive, conceit, accept, emancipate, precept, participate, captive'
+        'cap, cip, ceipt, cept, ceiv, ceit', 'take', 'capture, intercept, receptive, recipient, incipient, perceptive, percipient, anticipate, except, exceptional, exceptionable, susceptible, deception, conception, receive, conceit, accept, emancipate, precept, participate, captive'
     ],
     [
         'capit, capt', 'head', 'decapitate, captain, capitulate'
@@ -161,5 +164,301 @@ word_roots: [
     ],
     [
         'circum', 'round', 'circumlocution, circumnavigation, circumference, circumcision, circumscribe, circumambulate, circuitous, circumfluous, circumspect, circumstance, circumvent, circulation'
+    ],
+    [
+        'cit, citat', 'to call, to start', 'incite, excite, recitation'
+    ],
+    [
+        'cla, clo, clu, claud, claus, clos, clud', 'shut, close', 'closet, claustrophobia, enclose, disclose, include, conclude, exclusive, preclude, recluse, seclude, cloister'
+    ],
+    [
+        'clam, clamat', 'to cry out', 'clamorous, declamation, acclamation, proclaim, claimant'
+    ],
+    [
+        'clar', 'clear', 'clarity, clarion, declare'
+    ],
+    [
+        'co, con, com', 'with, together', 'company, collaborate, conjugal, congeal, congenial, convivial, coalesce, contrition, commensurate, conclave, conciliate, comply, congruent'
+    ],
+    [
+        'cogn', 'to know', 'agnostic, incognito, cognition, recognize'],
+    [
+        'col, cul', 'till', 'colony, cultivate, agriculture',
+    ],
+    [
+        'compl', 'to fill', 'complete, complement, comply'
+    ],
+    [
+        'contra', 'against', 'contravene, contradict'
+    ],
+    [
+        'cord, card', 'heart', 'accord, cordial, discord, cardialgia, cardiologist'
+    ],
+    [
+        'corp, soma', 'body', 'corporal, corpse, incorporate, somatic'
+    ],
+    [
+        'cosm', 'universe', 'cosmopolitan, cosmic'
+    ],
+    [
+        'cre, crese, cret', 'grow', 'increase, crescent, accretion'
+    ],
+    [
+        'cred, credit', 'to believe', 'incredulous, credulity, credence, credibility'
+    ],
+    [
+        'crux, crue', 'cross', 'crux, crucial, crucifix'
+    ],
+    [
+        'crypt', 'hidden', 'cryptic, cryptography'
+    ],
+    [
+        'culp', 'blame', 'culprit, culpability, exculpate'
+    ],
+    [
+        'cur', 'to care', 'curator, sinecure, secure, curable, accurate'
+    ],
+    [
+        'curr, curs', 'to run', 'excursion, cursory, precursor, current, incursion'
+    ],
+    [
+        'cycl', 'wheel, circle', 'bicycle, cyclone'
+    ],
+    [
+        'da, dat', 'to give', 'data, mandate, date'
+    ],
+    [
+        'de', 'away, down, off', 'denounce, debility, defraud, decry, deplete, defame, delineate, deface, devoid, defile, desecrate, derogatory, debase, depose'
+    ],
+    [
+        'deb, debit', 'to owe', 'debt, indebtedness, debenture'
+    ],
+    [
+        'dec', 'ten', 'decade, decimal'
+    ],
+    [
+        'dei, div', 'god', 'deity, divine'
+    ],
+    [
+        'dem', 'people', 'democracy, demagogue, epidemic, demography'
+    ],
+    [
+        'dent', 'teeth', 'dental, indentation'
+    ],
+    [
+        'derm', 'skin', 'dermatology, hypodermic, epidermis, pachyderm, taxidermist, dermatitis'
+    ],
+    [
+        'dexter', 'right hand', 'dexterous, ambidextrous'
+    ],
+    [
+        'di, dia, diurn', 'day', 'diary, quotidian, diurnal'
+    ],
+    [
+        'dia', 'through', 'dialectic, diatribe'
+    ],
+    [
+        'dic, dict, dit', 'tell, say, word', 'predicament, condition, dictate, dictator, abdicate, predict, contradict, addict, malediction, benediction, extradite, verdict, indict, diction, dictum, dictaphone'
+    ],
+    [
+        'dign', 'worthy', 'dignified, dignitary'
+    ],
+    [
+        'dis, dif', 'not', 'dissonance, discrepancy, disdain, dissuade, dismay, dispassionate, disparate, diffident, disparage'
+    ],
+    [
+        'doc, doct', 'to teach', 'docile, document, doctor, doctorate',
+    ],
+    [
+        'doc, duc, dac', 'teach, lead', 'conduct, reduce, seduce, conducive, inductee, doctrine, document, docile, didactic, indoctrinate, traduce, induce',
+    ],
+    [
+        'dom', 'state, rand, that which belongs to', 'wisdom',
+    ],
+    [
+        'domn', 'to rule', 'dominate, domain, dominant, domineer',
+    ],
+    [
+        'dono', 'give', 'donate, condone',
+    ],
+    [
+        'dorm', 'sleep', 'dormitory, dormant',
+    ],
+    [
+        'du', 'two', 'duo, duplicity, dual'
+    ],
+    [
+        'duc, duct', 'to lead', 'viaduct, aqueduct, abduct, ductile, induction'
+    ],
+    [
+        'dur', 'hard, lasting', 'endure, obdurate, duration'
+    ],
+    [
+        'dynam', 'power, strength', 'dynamic, dynamite, dynamo'
+    ],
+    [
+        'e,ef,ex', 'out of', 'eczema, effervescent, efflux, effusive, emanate, exacerbate, expunge'
+    ],
+    [
+        'ego', 'I', 'egoist, egotist, egocentric, egomaniac',
+    ],
+    [
+        'en, em', 'in, into, on', 'embalm, embark, embellish, envelope, envenom, environ',
+    ],
+    [
+        'equi', 'equal', 'equivocate, equanimity, equity, iniquity, equinox, equilibrium, equitable, equation',
+    ],
+    [
+        'equis', 'horse', 'equine, equestrian',
+    ],
+    [
+        'erg, urg', 'work', 'energy, ergatocracy, metallurgy',
+    ],
+    [
+        'err', 'to wander', 'error, errant, aberration',
+    ],
+    [
+        'eu', 'good', 'eupeptic, euphemism, eulogy, euphony, euphoria',
+    ],
+    [
+        'ev', 'time, age', 'coeval, longevity',
+    ],
+    [
+        'extr', 'outward', 'extraneous, extricate, extrinsic',
+    ],
+    [
+        'fac, fec, fic', 'make, do, easy', 'efface, efficacious, facetious, facient, facile, factious, factive, factory, malefactor, fiction, manufacture, artificial',
+    ],
+    [
+        'fall, fals', 'to deceive', 'fallacious, fallible, infallible'
+    ],
+    [
+        'fat, fab', 'speak', 'confabulate, ineffable'
+    ],
+    [
+        'fer', 'bring, bear, carry', 'deference, pestiferous, proffer, vociferous, fertile, transfer, somniferous'
+    ],
+    [
+        'ferv', 'boil', 'effervescent, ferment, fervent, fervid',
+    ],
+    [
+        'fid, feal, feder', 'trust, faith', 'affiance, affidavit, confide, diffident, fidelity, fiduciary, infidel, perfidy, bonafide, malafide',
+    ],
+    [
+        'fig', 'shape', 'effigy, feign, figment',
+    ],
+    [
+        'fila, fili', 'thread', 'filaceous, filigree, filate, filiferous',
+    ],
+    [
+        'fin', 'to end', 'finish, confine',
+    ],
+    [
+        'firm', 'strong', 'reaffirm, infirmity',
+    ],
+    [
+        'flam, flag', 'fire', 'conflagrate, flagrant, flambeau, flamboyant',
+    ],
+    [
+        'flect, flex', 'to bend', 'flexible, reflex, inflection',
+    ],
+    [
+        'flor', 'flower', 'effloresce, florid, flourish, fluorescent, floral'
+    ],
+    [
+        'flu', 'much', 'affluent, effluent, fluctuant, superfluous',
+    ],
+    [
+        'flu, fluct, flux', 'flow', 'fluid, fluctuation, influx',
+    ],
+    [
+        'fore', 'in front of', 'foreword, foretell',
+    ],
+    [
+        'form', 'shape', 'formative, reform, formation',
+    ],
+    [
+        'fort', 'strong, luck, chance', 'forte, fortify, fortitude, fortuitous',
+    ],
+    [
+        'fra, frac, frag', 'break', 'fracture, fraction, fragment, fragmentary, fragile, frail, refraction, refractory, infraction, infringe, fractious, frangible',
+    ],
+    [
+        'front', 'front', 'affront, effrontery',
+    ],
+    [
+        'fug', 'flee', 'fugacious, fugitive, refugee, subterfuge',
+    ],
+    [
+        'fulg', 'flash', 'fugent, fulgid, fulminate',
+    ],
+    [
+        'fum', 'smoke, scent', 'fumigate, fumes',
+    ],
+    [
+        'funct', 'perform', 'defunct', 'dysfunction', 'perfunctory'
+    ],
+    [
+        'fus', 'pour, join', 'diffuse, effuse, infuse, profuse, transfusion',
+    ],
+    [
+        'gamos', 'marriage', 'misogamist, polygamy, monogamy, bigamy, exogamy',
+    ],
+    [
+        'garrio', 'chatter', 'garrulous',
+    ],
+    [
+        'gen', 'birth, race, kind', 'generous, generate, homogeneous, heterogeneous, degenerate, regenerate, genuine, ingenious, ingenue, genealogy, indigenous, congenital, gender, engender, genre, progeny, genocide, genesis, pathogenic, generation, generic, progenitor',
+    ],
+    [
+        'geo', 'earth', 'geology, geography',
+    ],
+    [
+        'geras, geron', 'old age', 'geriatrics, gerontocracy',
+    ],
+    [
+        'germ', 'vital part', 'germane, germinate',
+    ],
+    [
+        'gest', 'carry, bear', 'gestate, gesticulate, ingest',
+    ],
+    [
+        'gnos', 'know', 'gnome, gnosis, prognosis'
+    ],
+    [
+        'graph, gram', 'write', 'allograph, calligraphy, epigram, epigraph, stenography, grammar, cryptogram',
+    ],
+    [
+        'grat', 'pleasing, agreeable', 'congratulate, gratuitous',
+    ],
+    [
+        'gravi', 'heavy', 'gravity',
+    ],
+    [
+        'greg', 'flock', 'aggregate, gregarious, egregious',
+    ],
+    [
+        'gress', 'walk, step, degree', 'aggrade, digression, digress, egress, gradient, gressorial, ingress, retrograde, transgress, progress, regress, congress, retrogress, gradual, degrade, downgrade, aggressor',
+    ],
+    [
+        'grex, gregis', 'herd', 'egregious, gregarious, congregate, segregate, aggregate',
+    ],
+    [
+        'gyne', 'woman', 'misogynist, polygyny',
+    ],
+    [
+        'habit', 'to have, live', 'habituate',
+    ],
+    [
+        'hemi', 'half', 'hemisphere',
+    ],
+    [
+        'hemo', 'blood', 'haematic, hematose, haemophilia, haemorrhage, haemoglobin',
+    ],
+    [
+        'her, hes', 'stick, cling', 'adherent, cohesive',
+    ],
+    [
+        'hetero', 'different', 'heterogeneous'
     ]
 ]

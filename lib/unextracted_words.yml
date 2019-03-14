@@ -1,0 +1,573 @@
+unextracted_words: [
+  {
+    name: act deed,
+    speech: noun,
+    meaning: written instrument that memorializes a bargain or transaction,
+    sentence: ,
+    additional_info: [
+      {
+        speech: 'noun',
+        entries: [
+          {
+            meaning: 'an action that is performed intentionally or consciously.',
+            sentence: ["doing good deeds"]
+          },
+          {
+            meaning: 'a legal document that is signed and delivered, especially one regarding the ownership of property or legal rights.',
+            sentence: ["mortgage deeds"]
+          }
+        ],
+        speech: 'verb',
+        entries: [
+          {
+            meaning: 'convey or transfer (property or rights) by legal deed.',
+            sentence: ["they deeded their property to their children"]
+          }
+        ],
+      }
+    ],
+  },
+  {
+    name: 'somnambulist',
+    speech: 'noun',
+    meaning: 'sleepwalking',
+    sentence: 'For the most recent mile he had been, practically, a somnambulist.',
+    additional_info: [
+      {speech: 'noun',
+      entries: [
+        {
+          meaning: 'sleepwalking',
+          sentence: ['For the most recent mile he had been, practically, a somnambulist.', 'You pretend to be a somnambulist in order to carry out your ends.', 'But his furtive movements had not the serene impassibility of the somnambulist.']
+        }
+      ],}
+    ],
+  },
+  {
+    name: amphibolous,
+    speech: adjective,
+    meaning: capable of two meanings,
+    sentence: 'An amphibolous sentence permits a double interpretation, one view of which may be true and the other false.',
+    additional_info: [
+      {speech: 'adjective',
+      entries: [
+        {
+          meaning: 'capable of two meanings',
+          sentence: ['An amphibolous sentence permits a double interpretation, one view of which may be true and the other false.']
+        },
+        {
+          meaning: 'ambiguous or equivocal, especially when due to the uncertain grammatical construction of a word or phrase.',
+          sentence: ['Demonstrating remarkable figurai acumen, his amphibolous ‘its’ is a delicious example of the conflation that enables the slippage between agent and agency.']
+        }
+      ],}
+    ],
+  },
+  {
+    name: cardialgia,
+    speech: noun,
+    meaning: pain in the heart,
+    sentence: 'Cardialgia is a painful condition of the stomach, usually referred to its cardiac orifice, and is popularly known as heartburn.',
+    additional_info: [
+      {speech: 'noun',
+      entries: [
+        {
+          meaning: 'heartburn; pain in the heart',
+          sentence: ['Cardialgia is a painful condition of the stomach, usually referred to its cardiac orifice, and is popularly known as heartburn.', 'Soap neutralizes the gastric acid without effervescence, and thus relieves the pain of cardialgia , where the stomach is affected.', 'The root yields a juice which is employed in skin diseases, in abscess, acid in cardialgia .']
+        }
+      ],}
+    ],
+  },
+  {
+    name: alter ego,
+    speech: noun,
+    meaning: 'a second self; a perfect substitute of deputy',
+    sentence: 'His adviser acts as his alter ego during his absence',
+    additional_info: [
+      {speech: 'noun',
+      entries: [
+        {
+          meaning: 'a second self; a perfect substitute of deputy',
+          sentence: ['His adviser acts as his alter ego during his absence', 'Certainly; the general manager is very often the alter ego of the company itself.']
+        }
+      ],}
+    ],
+  },
+  {
+    name: ambiparous,
+    speech: adjective,
+    meaning: characterized by containing the rudiments of both flowers and leaves; -- applied to a bud,
+    sentence: ,
+    additional_info: [
+      {speech: 'adjective',
+      entries: [
+        {
+          meaning: 'characterized by containing the rudiments of both flowers and leaves; -- applied to a bud',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: amphibolic,
+    speech: adjective,
+    meaning: describe a biochemical pathway that involves both catabolism and anabolism,
+    sentence: ,
+    additional_info: [
+      {speech: 'adjective',
+      entries: [
+        {
+          meaning: 'describe a biochemical pathway that involves both catabolism and anabolism',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: amphorous,
+    speech: noun,
+    meaning: A large two-handled storage jar.,
+    sentence: ,
+    additional_info: [
+      {speech: 'noun',
+      entries: [
+        {
+          meaning: 'A large two-handled storage jar.',
+          sentence: ['']
+        },
+        {
+          meaning: 'A narrow-necked jar used in ancient Greece and Rome, usually made of clay, with a narrow neck and two handles, used for holding oil or wine',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: analyze,
+    speech: verb,
+    meaning: 'examine (something) methodically and in detail, typically in order to explain and interpret it.',
+    sentence: we need to analyse our results more clearly,
+    additional_info: [
+      {speech: 'verb',
+      entries: [
+        {
+          meaning: 'examine (something) methodically and in detail, typically in order to explain and interpret it.',
+          sentence: ['we need to analyse our results more clearly']
+        }
+      ],}
+    ],
+  },
+  {
+    name: anacephalize,
+    speech: verb,
+    meaning: to recapitulate; to review,
+    sentence: Anacephalize the data again discussed in meeting to have deeper insight,
+    additional_info: [
+      {speech: 'verb',
+      entries: [
+        {
+          meaning: 'to recapitulate; to review',
+          sentence: ['Anacephalize the data again discussed in meeting to have deeper insight']
+        }
+      ],}
+    ],
+  },
+  {
+    name: andromania,
+    speech: noun,
+    meaning: 'in women, an obsession with men; nymphomania.',
+    sentence: ,
+    additional_info: [
+      {speech: 'noun',
+      entries: [
+        {
+          meaning: 'in women, an obsession with men; nymphomania.',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: archaeology,
+    speech: noun,
+    meaning: the study of human history and prehistory through the excavation of sites and the analysis of artefacts and other physical remains.,
+    sentence: ,
+    additional_info: [
+      {speech: 'noun',
+      entries: [
+        {
+          meaning: 'the study of human history and prehistory through the excavation of sites and the analysis of artefacts and other physical remains.',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: aurist,
+    speech: noun,
+    meaning: a physician specializing in the treatment of ear diseases; otologist,
+    sentence: ,
+    additional_info: [
+      {speech: 'noun',
+      entries: [
+        {
+          meaning: 'a physician specializing in the treatment of ear diseases; otologist',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: bonify,
+    speech: verb,
+    meaning: 'To convert into, or make, good.',
+    sentence: ,
+    additional_info: [
+      {speech: 'verb',
+      entries: [
+        {
+          meaning: 'To convert into, or make, good.',
+          sentence: ['']
+        },
+        {
+          meaning: 'To convert into, or make, good.',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: circumfluous,
+    speech: adjective,
+    meaning: flowing all around,
+    sentence: ,
+    additional_info: [
+      {speech: 'adjective',
+      entries: [
+        {
+          meaning: 'flowing all around',
+          sentence: ['']
+        },
+        {
+          meaning: 'surrounded by or as if by water',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: ergatocracy,
+    speech: noun,
+    meaning: rare government by the workers,
+    sentence: ,
+    additional_info: [
+      {speech: 'noun',
+      entries: [
+        {
+          meaning: 'rare government by the workers',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: facient,
+    speech: noun,
+    meaning: a combining form meaning “causing” or “inducing” that specified by the initial element,
+    sentence: ,
+    additional_info: [
+      {speech: 'noun',
+      entries: [
+        {
+          meaning: 'a combining form meaning “causing” or “inducing” that specified by the initial element',
+          sentence: ['']
+        },
+        {
+          meaning: 'One who does something; a doer; an agent.',
+          sentence: ['']
+        },
+        {
+          meaning: 'A multiplier.',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: bonafide,
+    speech: adjective,
+    meaning: genuine; real,
+    sentence: she was a bona fide expert,
+    additional_info: [
+      {speech: 'adjective',
+      entries: [
+        {
+          meaning: 'genuine; real',
+          sentence: ['she was a bona fide expert']
+        },
+        {
+          meaning: 'without intention to deceive.',
+          sentence: ['the court will assume that they have acted bona fide']
+        }
+      ],}
+    ],
+  },
+  {
+    name: malafide,
+    speech: adjective & adverb,
+    meaning: in bad faith; with intent to deceive.,
+    sentence: a mala fide abuse of position,
+    additional_info: [
+      {speech: 'adjective & adverb',
+      entries: [
+        {
+          meaning: 'in bad faith; with intent to deceive.',
+          sentence: ['a mala fide abuse of position']
+        }
+      ],}
+    ],
+  },
+  {
+    name: filaceous,
+    speech: adjective,
+    meaning: composed of threads,
+    sentence: ,
+    additional_info: [
+      {speech: 'adjective',
+      entries: [
+        {
+          meaning: 'composed of threads',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: filate,
+    speech: adjective,
+    meaning: threadlike,
+    sentence: ,
+    additional_info: [
+      {speech: 'adjective',
+      entries: [
+        {
+          meaning: 'threadlike',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: filiferous,
+    speech: adjective,
+    meaning: producing threads,
+    sentence: ,
+    additional_info: [
+      {speech: 'adjective',
+      entries: [
+        {
+          meaning: 'producing threads; bearing threads',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: conflagrate,
+    speech: verb,
+    meaning: to catch fire,
+    sentence: ,
+    additional_info: [
+      {speech: 'verb',
+      entries: [
+        {
+          meaning: 'to catch fire',
+          sentence: ['']
+        },
+        {
+          meaning: 'to set on fire',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: altruist,
+    speech: noun,
+    meaning: a person unselfishly concerned for or devoted to the welfare of others,
+    sentence: ,
+    additional_info: [
+      {speech: 'noun',
+      entries: [
+        {
+          meaning: 'a person unselfishly concerned for or devoted to the welfare of others',
+          sentence: ['To be the altruist , one must first be the egoist (say the philosophers), to give, one must first have.', 'On our knees the egotist must die, and the altruist be born.']
+        }
+      ],}
+    ],
+  },
+  {
+    name: inductee,
+    speech: noun,
+    meaning: 'a person inducted or being inducted, specif. into the armed forces',
+    sentence: ,
+    additional_info: [
+      {speech: 'noun',
+      entries: [
+        {
+          meaning: a person inducted or being inducted, specif. into the armed forces'',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: egoist,
+    speech: noun,
+    meaning: a self-centered or selfish person ,
+    sentence: ,
+    additional_info: [
+      {speech: '',
+      entries: [
+        {
+          meaning: 'a self-centered or selfish person ',
+          sentence: ['']
+        },
+        {
+          meaning: 'an arrogantly conceited person; egotist.',
+          sentence: ['']
+        },
+        {
+          meaning: 'an adherent of the metaphysical principle of the ego, or self; solipsist.',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: antenuptial,
+    speech: adjective,
+    meaning: 'a contract made between two people before they marry, agreeing on the distribution of their assets in the event of divorce',
+    sentence: ,
+    additional_info: [
+      {speech: 'adjective',
+      entries: [
+        {
+          meaning: 'a contract made between two people before they marry, agreeing on the distribution of their assets in the event of divorce',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: fugent,
+    speech: verb,
+    meaning: chase,
+    sentence: ,
+    additional_info: [
+      {speech: 'verb',
+      entries: [
+        {
+          meaning: 'third-person plural present active subjunctive of fugō',
+          sentence: ['']
+        },
+        {
+          meaning: 'chase',
+          sentence: ['']
+        }
+      ],}
+    ],
+  },
+  {
+    name: fumes,
+    speech: noun,
+    meaning: an amount of gas or vapour that smells strongly or is dangerous to inhale.,
+    sentence: ,
+    additional_info: [
+      {speech: 'noun',
+      entries: [
+        {
+          meaning: 'an amount of gas or vapour that smells strongly or is dangerous to inhale.',
+          sentence: ['clouds of exhaust fumes spewed by cars']
+        }
+      ],},
+      {speech: 'verb',
+      entries: [
+        {
+          meaning: 'feel, show, or express great anger.',
+          sentence: ['We simply cannot have this’, she fumed']
+        },
+        {
+          meaning: 'emit gas or vapour.',
+          sentence: ['fragments of lava hit the ground, fuming and sizzling']
+        }
+      ],}
+    ],
+  },
+  {
+    name: gressorial,
+    speech: adjective,
+    meaning: of the feet of certain birds) specialized for walking,
+    sentence: ,
+    additional_info: [
+      {
+        speech: 'adjective',
+        entries: [
+          {
+            meaning: 'of the feet of certain birds) specialized for walking',
+            sentence: ['']
+          }
+        ],
+      }
+    ],
+  },
+  {
+    name: hematose,
+    speech: adjective,
+    meaning: Fully or abnormally charged with blood.,
+    sentence: ,
+    additional_info: [
+      {
+        speech: 'adjective',
+        entries: [
+          {
+            meaning: 'Fully or abnormally charged with blood.',
+            sentence: ['']
+          }
+        ],
+      }
+    ],
+  },
+  {
+    name: misogamist,
+    speech: noun,
+    meaning: hatred of marriage.,
+    sentence: ,
+    additional_info: [
+      {
+        speech: 'noun',
+        entries: [
+          {
+            meaning: 'hatred of marriage.',
+            sentence: ['']
+          }
+        ],
+      }
+    ],
+  },
+  # {
+  #   name: ,
+  #   speech: ,
+  #   meaning: ,
+  #   sentence: ,
+  #   additional_info: [
+  #     {
+  #       speech: '',
+  #       entries: [
+  #         {
+  #           meaning: '',
+  #           sentence: ['']
+  #         }
+  #       ],
+  #     }
+  #   ],
+  # },
+]

@@ -2,7 +2,7 @@
 namespace :meta_data do
     desc "Add new words"
     task :add => :environment do 
-        exec "rake db:seed && rake meta_data:fetch && rake meta_data:extract"
+        exec "rake db:seed && rake meta_data:fetch && rake meta_data:extract && rake meta_data:update_unextract"
     end
 
     desc "This task fetch meta data from oxford API!"
@@ -10,7 +10,7 @@ namespace :meta_data do
         # FetchMetaDataJob.perform_later 'get_all'
         
         require 'meta_data'
-        words = Word.where(meta_fetched: false)
+        words = Word.where(meta_fetched: false, meaning: nil)
         words.each do |word|
             result = MetaData.get(word.name)
             if(result[:status] == '200')
@@ -25,4 +25,10 @@ namespace :meta_data do
         require 'meta_data'
         MetaData.extract
     end
-end
+
+    desc "This task update words not found from Oxford Dictionary"
+    task :update_unextract => :environment do
+        require 'meta_data'
+        MetaData.unextracted_words
+    end
+end  

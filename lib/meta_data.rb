@@ -92,14 +92,24 @@ class MetaData
         end
 
         def unextracted_words
-            unextracted_words = YAML.load(File.read(Rails.root.join("lib", "unextracted_words.yml")))
-            Word.where(meaning: nil).map do |word|
-
+            unextracted_words = YAML.load(File.read(Rails.root.join("lib", "unextracted_words.yml")))["unextracted_words"]
+            unextracted_words.each do |unextracted_word|
+                begin
+                    word = Word.find_by(name: unextracted_word["name"])
+                    raise "#{unextracted_word['name']} not found" unless word
+                    word.update_attributes(unextracted_word)
+                rescue StandardError => e 
+                    puts "\n\n"  
+                    puts "Message: \n #{e.message}"  
+                    puts "Backtrace: \n#{e.backtrace.inspect}"
+                end 
             end
         end
     end
 end
 
+
+# "somnambulist", "amphibolous", "act deed", "cardialgia", "alter ego", "ambiparous", "amphibolic", "amphorous", "analyze", "anacephalize", "andromania", "pussilanimaous", "archeology", "artifact", "articylate", "aurist", "bedaud", "beratebereave", "bona fide", "bonify", "anticulate", "exceptioable", "circumfluous", "declamatio", "acclamtion", "incrase", "dicate", "malendiction", "envolop", "equestrain", "ergatocracy", "facient", "bonafide", "malafide", "filaceous", "filate", "filiferous", "conflagrate", "flourescent", "altruist", "bibliomaniac", "inductee", "egoist", "antenuptial"
 
 # curl -X GET --header 'Accept: application/json' --header 'app_id: f4537681' --header 'app_key: c509d69847c220a2d9bd39e8db1a5fe4' 'https://od-api.oxforddictionaries.com/api/v1/entries/en/abandon'
 

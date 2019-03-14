@@ -1,5 +1,5 @@
 class Word < ApplicationRecord
-  belongs_to :word_root, optional: true
+  has_and_belongs_to_many :word_root, optional: true
   belongs_to :list, optional: true
   belongs_to :parent, class_name: "Word", optional: true
 

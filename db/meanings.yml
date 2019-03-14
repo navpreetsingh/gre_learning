@@ -1,0 +1,135 @@
+meanings: [
+  {
+    name: 'act deed',
+    speech: 'noun',
+    meaning: 'written instrument that memorializes a bargain or transaction',
+    sentence: ,
+    additional_info: [
+      {
+        speech: 'noun',
+        entries: [
+          {
+            meaning: 'an action that is performed intentionally or consciously.',
+            sentence: ["doing good deeds"]
+          },
+          {
+            meaning: 'a legal document that is signed and delivered, especially one regarding the ownership of property or legal rights.',
+            sentence: ["mortgage deeds"]
+          }
+        ],
+        speech: 'verb',
+        entries: [
+          {
+            meaning: 'convey or transfer (property or rights) by legal deed.',
+            sentence: ["they deeded their property to their children"]
+          }
+        ],
+      }
+    ],
+  },
+  {
+    name: ,
+    speech: ,
+    meaning: ,
+    sentence: ,
+    additional_info: ,
+  },
+  {
+    name: ,
+    speech: ,
+    meaning: ,
+    sentence: ,
+    additional_info: ,
+  },
+  {
+    name: ,
+    speech: ,
+    meaning: ,
+    sentence: ,
+    additional_info: ,
+  },
+  {
+    name: ,
+    speech: ,
+    meaning: ,
+    sentence: ,
+    additional_info: ,
+  },
+  {
+    name: ,
+    speech: ,
+    meaning: ,
+    sentence: ,
+    additional_info: ,
+  },
+  {
+    name: ,
+    speech: ,
+    meaning: ,
+    sentence: ,
+    additional_info: ,
+  },
+  {
+    name: ,
+    speech: ,
+    meaning: ,
+    sentence: ,
+    additional_info: ,
+  },
+  {
+    name: ,
+    speech: ,
+    meaning: ,
+    sentence: ,
+    additional_info: ,
+  },
+  {
+    name: ,
+    speech: ,
+    meaning: ,
+    sentence: ,
+    additional_info: ,
+  },
+  {
+    name: ,
+    speech: ,
+    meaning: ,
+    sentence: ,
+    additional_info: ,
+  },
+  {
+    name: ,
+    speech: ,
+    meaning: ,
+    sentence: ,
+    additional_info: ,
+  },
+  {
+    name: ,
+    speech: ,
+    meaning: ,
+    sentence: ,
+    additional_info: ,
+  },
+  {
+    name: ,
+    speech: ,
+    meaning: ,
+    sentence: ,
+    additional_info: ,
+  },
+  {
+    name: ,
+    speech: ,
+    meaning: ,
+    sentence: ,
+    additional_info: ,
+  },
+  {
+    name: ,
+    speech: ,
+    meaning: ,
+    sentence: ,
+    additional_info: ,
+  },
+]

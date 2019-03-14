@@ -9,30 +9,26 @@
 
 require 'yaml'
 # Word Roots
-# word_roots = YAML.load(File.read(Rails.root.join("db", "word_roots.yml")))["word_roots"]
+word_roots = YAML.load(File.read(Rails.root.join("db", "word_roots.yml")))["word_roots"]
 
-word_roots = [
-    [
-        'chron', 'time', 'chronometer, chronological, anachronism, chronicle, chronic, synchronize'
-    ],
-]
+# word_roots = [
+# ]
 
-word_roots.each do |wr|
+word_roots.each do |wr|   
+    file = File.open(Rails.root.join('db', 'error_logs'), 'a')
     begin
         word_root = WordRoot.find_or_create_by(name: wr[0], meaning: wr[1])
         words = wr.last.split(",")
-        puts "Words: #{words}"
-        words.each do |word|
-            wordd = word_root.words.new(name: word.lstrip)
-            unless wordd.save
-                byebug
-                puts "#{word} not saved, Message: #{wordd.errors.messages}" 
-            end
-        end
+        word_ids = []
+        words.each {|word| word_ids << Word.find_or_create_by(name: word.lstrip).id }
+        word_root.word_ids = word_ids.uniq
     rescue Exception => e
-        puts "\n\n"  
-        puts "Message: \n #{e.message}"  
-        puts "Backtrace: \n#{e.backtrace.inspect}" 
+        file.puts "\n\n"  
+        file.puts "Message: \n #{e.message}"  
+        file.puts "Backtrace: \n#{e.backtrace.inspect}" 
+        file.puts "\n\n"  
         next
+    ensure
+        file.close
     end
 end
